@@ -4,7 +4,7 @@
 #
 Name     : R-raster
 Version  : 2.6.7
-Release  : 3
+Release  : 4
 URL      : https://cran.r-project.org/src/contrib/raster_2.6-7.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/raster_2.6-7.tar.gz
 Summary  : Geographic Data Analysis and Modeling
