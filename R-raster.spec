@@ -4,7 +4,7 @@
 #
 Name     : R-raster
 Version  : 2.8.4
-Release  : 11
+Release  : 12
 URL      : https://cran.r-project.org/src/contrib/raster_2.8-4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/raster_2.8-4.tar.gz
 Summary  : Geographic Data Analysis and Modeling
