@@ -4,18 +4,16 @@
 #
 Name     : R-raster
 Version  : 2.8.19
-Release  : 15
+Release  : 16
 URL      : https://cran.r-project.org/src/contrib/raster_2.8-19.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/raster_2.8-19.tar.gz
 Summary  : Reading, writing, manipulating, analyzing and modeling of gridded spatial data.
 Group    : Development/Tools
 License  : GPL-3.0
 Requires: R-raster-lib = %{version}-%{release}
-Requires: R-Rcpp
-Requires: R-rlang
-Requires: R-sp
 BuildRequires : R-Rcpp
 BuildRequires : R-rlang
+BuildRequires : R-sf
 BuildRequires : R-sp
 BuildRequires : buildreq-R
 
@@ -38,10 +36,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1549147129
+export SOURCE_DATE_EPOCH=1552843549
 
 %install
-export SOURCE_DATE_EPOCH=1549147129
+export SOURCE_DATE_EPOCH=1552843549
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -77,8 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export _R_CHECK_FORCE_SUGGESTS_=false
-R CMD check --no-manual --no-examples --no-codoc -l %{buildroot}/usr/lib64/R/library raster|| : 
-cp ~/.stash/* %{buildroot}/usr/lib64/R/library/*/libs/ || :
+R CMD check --no-manual --no-examples --no-codoc  raster || :
 
 
 %files
@@ -122,7 +119,10 @@ cp ~/.stash/* %{buildroot}/usr/lib64/R/library/*/libs/ || :
 /usr/lib64/R/library/raster/help/raster.rdx
 /usr/lib64/R/library/raster/html/00Index.html
 /usr/lib64/R/library/raster/html/R.css
-/usr/lib64/R/library/raster/libs/symbols.rds
+/usr/lib64/R/library/raster/tests/testthat.R
+/usr/lib64/R/library/raster/tests/testthat/test-rasterize.R
+/usr/lib64/R/library/raster/tests/testthat/test-sf-coercion.R
+/usr/lib64/R/library/raster/tests/testthat/test-subset.R
 
 %files lib
 %defattr(-,root,root,-)
