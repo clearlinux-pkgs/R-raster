@@ -4,7 +4,7 @@
 #
 Name     : R-raster
 Version  : 2.8.19
-Release  : 19
+Release  : 20
 URL      : https://cran.r-project.org/src/contrib/raster_2.8-19.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/raster_2.8-19.tar.gz
 Summary  : Reading, writing, manipulating, analyzing and modeling of gridded spatial data.
