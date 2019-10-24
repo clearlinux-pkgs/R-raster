@@ -4,7 +4,7 @@
 #
 Name     : R-raster
 Version  : 3.0.7
-Release  : 27
+Release  : 28
 URL      : https://cran.r-project.org/src/contrib/raster_3.0-7.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/raster_3.0-7.tar.gz
 Summary  : Reading, writing, manipulating, analyzing and modeling of gridded spatial data.
@@ -16,6 +16,7 @@ Requires: R-sp
 BuildRequires : R-Rcpp
 BuildRequires : R-sp
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 No detailed description available
@@ -36,10 +37,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1569616547
+export SOURCE_DATE_EPOCH=1571884013
 
 %install
-export SOURCE_DATE_EPOCH=1569616547
+export SOURCE_DATE_EPOCH=1571884013
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
