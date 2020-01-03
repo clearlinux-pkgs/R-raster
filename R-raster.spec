@@ -4,7 +4,7 @@
 #
 Name     : R-raster
 Version  : 3.0.7
-Release  : 29
+Release  : 30
 URL      : https://cran.r-project.org/src/contrib/raster_3.0-7.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/raster_3.0-7.tar.gz
 Summary  : Reading, writing, manipulating, analyzing and modeling of gridded spatial data.
