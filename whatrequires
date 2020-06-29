@@ -1,6 +1,5 @@
 # This file contains recursive sources that require this package
 R-Luminescence
-R-RandomFields
 R-leaflet
 R-rasterVis
 R-remote
