@@ -4,7 +4,7 @@
 #
 Name     : R-raster
 Version  : 3.4.10
-Release  : 44
+Release  : 45
 URL      : https://cran.r-project.org/src/contrib/raster_3.4-10.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/raster_3.4-10.tar.gz
 Summary  : Geographic Data Analysis and Modeling
