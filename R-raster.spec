@@ -4,7 +4,7 @@
 #
 Name     : R-raster
 Version  : 3.5.2
-Release  : 50
+Release  : 51
 URL      : https://cran.r-project.org/src/contrib/raster_3.5-2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/raster_3.5-2.tar.gz
 Summary  : Geographic Data Analysis and Modeling
