@@ -1,7 +1,5 @@
 # This file contains recursive sources that require this package
-R-Luminescence
 R-leaflet
 R-rasterVis
 R-remote
 R-spData
-R-terra
