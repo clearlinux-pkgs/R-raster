@@ -1,5 +1,5 @@
 PKG_NAME := R-raster
-URL = https://cran.r-project.org/src/contrib/raster_3.6-30.tar.gz
+URL = https://ftp.osuosl.org/pub/cran/src/contrib/raster_3.6-31.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
